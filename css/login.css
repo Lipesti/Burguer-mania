@@ -1,0 +1,87 @@
+section#login {
+    padding: 2rem;
+    background-color: #E1F5A9;
+    margin-bottom: 1rem;
+}
+
+div#acesso {
+    position: relative;
+    top: 2rem;
+    padding: 5px;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    margin: auto;
+    width: 30%;
+    background-color: #ECF6CE;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px #100719;
+}
+
+div label.login {
+    font-size: 25px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 2px;
+    padding-left: 5rem;  
+    color: #DF7401;
+}
+
+input {
+    align-items: center;
+    position: relative;
+    left: 5rem;
+    width: 60%;
+    height: 2.4rem;
+    
+}
+
+input[type=text],input[type=password]{
+    font-family: Helvetica;
+    padding-left: 1rem;
+}
+
+#n-empresa {
+    font-weight: bold;
+    color: #8A2908;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+button.btn-lg {
+    background-color: #DF7401;
+    font-weight: bolder;
+    color: #8A2908;
+    font-family: Helvetica;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+    header {
+        display: flex;
+    }
+
+    i.bi-geo-alt-fill, .local, i.bi-image-fill {
+        display: none;
+    }
+
+    ul.footer-card {
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .footer-card a {
+        width: 100%;
+    }
+
+    div#acesso {
+        width: 100%;
+    }
+
+}
+

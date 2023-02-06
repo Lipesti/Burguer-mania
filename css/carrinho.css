@@ -1,0 +1,154 @@
+section#secao-carrinho {
+    width: 90%;
+    position: relative;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+i.bi-arrow-left-square-fill {
+    font-size: 30px;
+    color: #8A4B08;
+    position: relative;
+    right: 20rem;
+}
+
+i.bi-arrow-left-square-fill:hover {
+    color: #DBA901;
+}
+
+i.bi-cart-x-fill {
+    font-size: 30px;
+    color: #8A0808;
+    position: relative;
+    left: 20rem;
+
+}
+
+i.bi-cart-x-fill:hover {
+    color: #FE2E2E;
+}
+
+p#titulo-car {
+    color: #61380B;
+    text-align: center;
+    font-size: 25px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+section#car-produto {
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    background-color: aliceblue;
+    box-shadow: 0 5px 15px #100719;
+}
+
+div#image {
+    padding-top: 1rem;
+}
+
+#car-produto img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    border-radius: 70%;
+}
+
+p#nome-produ {
+    margin-top:1rem ;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Helvetica;
+}
+
+div#div-produ {
+    display: flex;
+    justify-content: center;
+    margin: .8rem;
+}
+
+i.bi-dash-square {
+    font-size: 25px;
+    margin-right: 1rem;
+}
+
+p#quantidade {
+    font-size: 26px;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+
+i.bi-plus-square {
+    font-size: 25px;
+    margin-left: 1rem;
+}
+
+i.bi-trash-fill {
+    font-size: 25px;
+    color: #424242;
+    position: relative;
+    left: 10rem;
+
+}
+
+i.bi-trash-fill:hover {
+    color: #ff0000;
+}
+
+p#preco-produ {
+    font-size: 26px;
+    font-family: Helvetica;
+    font-weight: 700;
+    text-align: center;
+}
+
+section#secao-final {
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    background-color: aliceblue;
+    box-shadow: 0 5px 15px #100719;
+}
+
+div#cupom {
+    padding-top: 1rem;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+div#pagamento {
+    padding-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+p.valor {
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+button.btn-lg {
+    color: #8A2908;
+    background-color: #DF7401;
+    font-weight: bold;
+}
+
+button.btn-lg:hover {
+    background-color: #04B404;
+    color: #100719;
+}
+

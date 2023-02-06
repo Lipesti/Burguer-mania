@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/carrinho.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-padrao.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Carrinho</title>
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <a href="login.html">
+                    <li><i class="bi bi-person-circle"></i></i></li>
+                </a>
+
+                <li id="img-local"><i class="bi bi-geo-alt-fill"></i>
+                    <p class="local">São Paulo</p>
+                </li>
+
+                <li>
+                    <img class="logo" src="image/a5b8d77b30cb4af6b52ddd171dd17edc.png" alt="">
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="secao-carrinho">
+            <i class="bi bi-arrow-left-square-fill"></i>
+            <p id="titulo-car">CARRINHO</p>
+            <i class="bi bi-cart-x-fill"></i>
+        </section>
+
+        <section id="car-produto">
+            <div id="image">
+                <img id="img-car"
+                    src="https://images.pexels.com/photos/11299740/pexels-photo-11299740.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="">
+
+                <p id="nome-produ">NOME DO PRODUTO</p>
+
+                <div id="div-produ">
+                    <i class="bi bi-dash-square"></i>
+                    <p id="quantidade">1</p>
+                    <i class="bi bi-plus-square"></i>
+                    <i class="bi bi-trash-fill"></i>
+
+                </div>
+
+                <p id="preco-produ">R$ 0000,00</p>
+            </div>
+        </section>
+
+        <section id="secao-final">
+            <div id="cupom">
+                <input type="text" placeholder="Insira o seu cupom aqui">
+                <button type="button" class="btn btn-outline-success">Aplicar</button>
+            </div>
+        
+            <div id="pagamento">
+                <p class="valor">Taxa Delivery:</p>
+                <p class="valor">Valor Total:</p>
+                <button type="button" class="btn btn-lg btn-block">Ir para Pagamento</button>
+            </div>
+        </section>
+
+        <footer id="footer" class="footer">
+            <ul class="footer-card">
+                <a href="home.html">
+                    <li class="footer-item">
+                        <i class="bi bi-house-fill"></i>
+                        <p class="footer-nome-item">Home</p>
+                    </li>
+                </a>
+
+                <a href="cadastrar_usuario.html">
+                    <li class="footer-item">
+                        <i class="bi bi-person-plus-fill"></i>
+                        <p class="footer-nome-item">Cadastrar Usuario</p>
+                    </li>
+                </a>
+
+                <a href="cadastro_produto.html">
+                    <li class="footer-item">
+                        <i class="bi bi-upc-scan"></i>
+                        <p class="footer-nome-item">Cadastrar Produto</p>
+                    </li>
+                </a>
+
+                <a href="carrinho.html">
+                    <li class="footer-item">
+                        <i class="bi bi-cart-check-fill"></i>
+                        <p class="footer-nome-item">Carrinho</p>
+                    </li>
+                </a>
+
+                <a href="produto.html">
+                    <li class="footer-item">
+                        <i class="bi bi-stickies-fill"></i>
+                        <p class="footer-nome-item">Produto</p>
+                    </li>
+                </a>
+            </ul>
+        </footer>
+    </main>
+</body>
+
+</html>

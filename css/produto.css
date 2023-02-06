@@ -1,0 +1,153 @@
+section#inicio-p {
+    width: 90%;
+    height: 70px;
+    position: relative;
+    top: .5rem;
+    margin: auto;
+}
+
+i.bi-arrow-left-square-fill {
+    font-size: 30px;
+    margin-left: .2rem;
+    color: #8A4B08;   
+}
+
+i.bi-arrow-left-square-fill:hover {
+    color: #DBA901;
+}
+
+i.bi-heart-fill {
+    font-size: 30px;
+    color: #FA5858;
+    padding-left: 70rem;
+}
+
+i.bi-heart-fill:hover {
+    color: red;
+}
+
+section#secao-produto {
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+    box-shadow: 0 5px 15px #0A0A2A;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    font-family: Helvetica;
+}
+
+h1#titulo-produ {
+    font-size: 23px;
+    font-weight: bold;
+    color: #8A4B08;
+    padding-top: .6rem;
+}
+
+p#descricao {
+    width: 80%;
+    font-size: 18px;
+    padding-left: 10rem;
+    color: #B18904;
+}
+
+img#img-produ {
+    width: 40%;
+    border-radius: 100%;
+}
+
+div#unidade {
+    display: flex;
+    justify-content: center;
+    margin: .8rem;
+}
+
+i.bi-dash-square {
+    font-size: 25px;
+    padding-right: 2rem;
+}
+
+p#unidade-p {
+    font-size: 25px;
+    padding-right: 1rem;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+i.bi-plus-square {
+    font-size: 25px;
+    padding-left: 1rem;
+}
+
+div#preco p {
+    font-size: 25px;
+    font-family: Helvetica;
+    font-weight: 600;
+    text-align: center;
+}
+
+i.bi-cart-plus-fill {
+    font-size: 40px;
+    color: #095709;
+}
+
+button.btn-lg {
+    background-color: #DF7401;
+    color: #8A2908;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+        
+    }
+    header {
+        display: flex;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
+    i.bi-geo-alt-fill, .local, i.bi-image-fill {
+        display: none;
+    }
+
+    ul.footer-card {
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .footer-card a {
+        width: 100%;
+    }
+
+    section#inicio-p {
+        width: 100%;
+        margin: auto;
+    }
+
+    i.bi-heart-fill {
+        position: absolute;
+        right: 56px;
+    }
+
+    i.bi-heart-fill:hover {
+        color: red;
+    }
+
+    section#secao-produto {
+        width: 100%;
+    }
+
+    p#descricao {
+        width: 100%;
+        position: relative;
+        right: 5rem;
+    }
+}
+
